@@ -1,0 +1,25 @@
+/* Just for the demos: */
+body{ margin:0; background:#dccfc4 url(../images/bg.jpg); font:15px 'segoe ui',verdana,sans-serif; color:#444 }
+div#content{ width:800px; margin:0 auto; padding:10px 0 100px }
+h1{ font:normal 112px 'Josefin Sans Std Light',serif; margin:0 0 30px; white-space:nowrap; text-align:center }
+body.ie h1{ font:normal 97px 'Cantarell','segoe ui',sans-serif; }
+h2{ font:normal 30px 'segoe ui','Cantarell',Georgia,serif; margin:20px 0 10px }
+#right{ float:right; width:380px; margin-left:40px; margin-bottom:30px }
+.code{ font:13px monospace; background:#eee3db; padding:10px 15px; white-space:nowrap }
+.tab{ margin-left:30px }
+.comment{ font-weight:bold; color:#bf2323 }
+#noscript, #alert{ padding:10px 15px; border:2px solid #444 }
+#alert{ border:0; background:#fff; color:#000; opacity:0.4; filter:alpha(opacity=40); display:none }
+#alert0{ margin:10px 0 10px }
+#footer{ border-top:1px solid #444; margin-top:50px; padding-top:20px; clear:both }
+a{ color:#bf2323; text-decoration:none }
+#externalcontrols{ text-align:center }
+#externalcontrols button{ padding:5px 10px }
+.opts{ white-space:nowrap }
+.opts b{ display:block; float:left; width:160px }
+
+a.tab_out, span.tab_act, label.tab_inactive{ float:left; display:block; border:1px solid #444; border-bottom:0; margin:30px 0 0 10px; padding:6px 12px; position:relative; bottom:-1px;
+	-moz-border-radius:8px 8px 0 0; -webkit-border-radius:8px 8px 0 0; border-radius:6px 6px 0 0; }
+span.tab_act{ border-bottom:1px solid #dccfc4; background:none }
+label.tab_inactive{ background:none; opacity:0.3; filter:alpha(opacity=30) }
+div#undertabs{ border-top:1px solid #444; clear:both; margin:0 }
